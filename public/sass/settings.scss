@@ -1,0 +1,26 @@
+// variables
+$purple: #b4649c;
+
+
+
+
+// general styles
+html, body {
+    margin: 0;
+}
+
+* {
+    color: #212121;
+    font-family: 'Playfair Display', serif;
+    // font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+// common classes
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
