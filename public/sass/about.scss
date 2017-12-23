@@ -45,7 +45,16 @@ header {
         font-weight: 400;
         margin: 0;
         padding: 4em 0;
+        &:after {
+            content: "";
+            display: block;
+            width: 1.5625rem;
+            height: 0.125rem;
+            margin: 1.25rem auto;
+            background: $purple;
+        }
     }
+    
 }
 
 
@@ -54,14 +63,17 @@ header {
     header {
         grid-template-columns: 1fr 1fr;
         margin-top: -5em;
+        margin-bottom: -200px;
     }
+
+
     .header__circle {
         top: -200px;
         height: 700px;
         .circle {
-            height: 1900px;
-            width: 1600px;
-            right: -1100px;
+            height: 900px;
+            width: 900px;
+            right: -400px;
         }
         .header__image {
             img {
@@ -74,5 +86,13 @@ header {
     .header__title {
         font-size: 2em;
         margin-top: 1em;
+        padding-left: 18%;
+    }
+
+    .about {
+        div {
+            width: 50%;
+            margin: 0 auto;
+        }
     }
 }
