@@ -1,0 +1,47 @@
+.services {
+    padding-top: 4em;
+    h1 {
+        padding-bottom: 1em;
+        font-weight: 400;
+        font-size: 4em;
+    }
+}
+
+.panel {
+    height:100%;
+    margin-bottom: 1em;
+    padding: 1em 2em 1em 2em;
+    width: 85%;
+    h2 {
+        color: #212121;
+        font-weight: 400;
+    }
+    p {
+        color: #f7f7f7;
+    }
+}
+
+.panel--design {
+    background: $purple;
+}
+
+.panel--development {
+    background: $blue;
+}
+
+.panel--marketing {
+    background: $red;
+}
+
+
+@media (min-width: $desktop-breakpoint) {
+    .services--container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .services {
+        h1 {
+            margin-left: 0;
+        }
+    }
+}

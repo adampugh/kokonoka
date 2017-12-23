@@ -1,5 +1,5 @@
 header {
-    padding: 4em 0;
+    padding: 4em 0 0 0;
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -15,12 +15,10 @@ header {
 }
 
 .header__circle {
-    // border: 1px solid red;
     overflow: hidden;
     position: relative;
     width: 100%;
     height: 500px;
-    // background: green;
     .circle {
         position: absolute;
         border-radius: 50%;
@@ -39,3 +37,42 @@ header {
     }
 }
 
+.about {
+    background: #f7f7f7;
+    text-align: center;
+    h2 {
+        color: #212121;
+        font-weight: 400;
+        margin: 0;
+        padding: 4em 0;
+    }
+}
+
+
+// desktop styles
+@media (min-width: $desktop-breakpoint) {
+    header {
+        grid-template-columns: 1fr 1fr;
+        margin-top: -5em;
+    }
+    .header__circle {
+        top: -200px;
+        height: 700px;
+        .circle {
+            height: 1900px;
+            width: 1600px;
+            right: -1100px;
+        }
+        .header__image {
+            img {
+                width: 100%;
+                margin-top: 6em;
+            }
+        }
+    }
+    
+    .header__title {
+        font-size: 2em;
+        margin-top: 1em;
+    }
+}

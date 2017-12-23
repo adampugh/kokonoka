@@ -1,6 +1,8 @@
 // variables
-$purple: #b4649c;
-
+$purple: #947cb0;
+$blue: #c6e7e5;
+$red: #ee5a56;
+$desktop-breakpoint: 62rem;
 
 
 
@@ -23,4 +25,10 @@ a {
 .container {
     width: 90%;
     margin: 0 auto;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .container {
+        width: 80%;
+    }
 }

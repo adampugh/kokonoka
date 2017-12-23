@@ -5,14 +5,14 @@ $(document).ready(function(){
 
     function openMenu() {
         menu.animate({
-            left: "30%"
+            right: "0"
         }, 500);
         menuOpen = true;
     }
 
     function closeMenu() {
         menu.animate({
-            left: "100%"
+            right: "-100%"
         }, 500);
         menuOpen = false;
     }
