@@ -20,11 +20,11 @@
             </div>
         </div>
         <div class="menu">
-            <a href="#" class="hover--blue">Home</a>
-            <a href="#" class="hover--orange">Case Studies</a>
-            <a href="#" class="hover--purple">Services</a>
-            <a href="#" class="hover--red">Blog</a>
-            <a href="#" class="hover--pink">Contact</a>
+            <a href="#home" class="hover--blue">Home</a>
+            <a href="#case-studies" class="hover--orange">Case Studies</a>
+            <a href="#services" class="hover--purple">Services</a>
+            <a href="#blog" class="hover--red">Blog</a>
+            <a href="#contact" class="hover--pink">Contact</a>
             <hr>
             <div>
                 <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -43,7 +43,7 @@
 
 
     <!-- about -->
-    <header>
+    <header id="home">
         <div class="animatedParent header__title container">
             <h1 class="animated fadeInLeftShort">Digital Agency</h1>
             <h2 class="animated fadeInLeft">Building beautiful digital products, brands and experiences.</h2>
@@ -69,7 +69,7 @@
 
 
     <!-- case studies -->
-    <div class="container case-studies__wrapper">
+    <div id="case-studies" class="container case-studies__wrapper">
         <h1>Case Studies</h1>
         <div class="case-studies animatedParent">    
             <div class="case-studies__project project--1 animated fadeInUp">
@@ -95,7 +95,7 @@
 
 
     <!-- services -->
-    <div class="grey-wrapper">
+    <div id="services" class="grey-wrapper">
         <h1 class="services__header container">Our Services</h1>
         <div class="services services--container animatedParent">
             
@@ -117,7 +117,7 @@
 
 
     <!-- blog -->
-    <div class="blog container">
+    <div id="blog" class="blog container">
         <h1>Our Blog</h1>
         <div class="blog__posts">
             <div class="blog__posts__post">
@@ -133,13 +133,16 @@
                 <p class="red">Feb 24th</p>
             </div>
         </div>
-        <p class="blog__all-posts">All posts</p>
+        <div class="btn-wrapper">
+            <p class="blog__all-posts underline--magical">All posts</p>
+        </div>
+        
     </div>
     <!-- end of blog -->
 
 
     <!-- contact -->
-    <div class="grey-wrapper">
+    <div id="contact" class="grey-wrapper">
         <div class="contact container">
             <h1>Contact Us</h1>
             <form>
@@ -151,7 +154,10 @@
                     <div>
                         <input type="number" name="field3" placeholder="Budget" />
                         <textarea placeholder="Project Details" onkeyup="adjust_textarea(this)"></textarea>
-                        <button class="btn">Send Message</button>
+                        <div class="btn-wrapper">
+                            <span class="blog__all-posts underline--magical">Send Message</span>
+                        </div>
+                        
                     </div>
                 </div>
             </form>
