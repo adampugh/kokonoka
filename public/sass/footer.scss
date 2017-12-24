@@ -1,0 +1,28 @@
+footer {
+    padding: 4em 0;
+    background: lightskyblue;
+    h1, p {
+        color: white;
+    }
+}
+
+.footer__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+
+
+@media (min-width: $desktop-breakpoint) {
+    .footer__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .footer__right {
+            justify-self: end;
+            background: green;
+        }
+    }
+}

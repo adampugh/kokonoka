@@ -1,0 +1,29 @@
+.blog {
+    h1 {
+        padding: 4em 0 2em 0;
+        text-align: center;
+    }
+}
+
+
+
+.blog__posts__post {
+    border-bottom: 1px solid lightgrey;
+    padding: 2em 0;
+    h2 {
+        margin: 0;
+        padding: .5em;
+    }
+    p {
+        text-align: right;
+        margin: 0;
+    }
+}
+
+.blog__all-posts {
+    cursor: pointer;
+    padding: 2em 0;
+    text-align: right;
+    font-size: 1.5em;
+    font-weight: 600;
+}

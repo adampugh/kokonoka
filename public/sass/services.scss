@@ -1,21 +1,23 @@
 .grey-wrapper {
     background: #f7f7f7;
+    max-width: 100vw;
 }
 .services {
-    // padding-top: 4em;
+    padding-bottom: 4em;
 }
 
 .services__header {
-    padding: 4em;
+    padding: 4em 0;
     font-weight: 400;
     font-size: 2em;
-    text-align: center;    
+    text-align: center;
+        
 }
 
 .panel {
     height:100%;
     margin-bottom: 1em;
-    padding: 1em 2em 1em 2em;
+    padding: 2em;
     width: 65%;
     h2 {
         color: #212121;
@@ -26,12 +28,13 @@
     }
 }
 
+
 .panel--design {
     background: $purple;
 }
 
 .panel--development {
-    background: $blue;
+    background: lightskyblue;
     margin-left: auto;
 }
 
