@@ -21,17 +21,23 @@
 }
 
 .menu {
+    -webkit-box-shadow: -12px 2px 51px -26px rgba(0,0,0,0.72);
+    -moz-box-shadow: -12px 2px 51px -26px rgba(0,0,0,0.72);
+    box-shadow: -12px 2px 51px -26px rgba(0,0,0,0.72);
     background: white;
     display: fixed;
     font-size: 1.5em;
     top: 0;
     right: -100%;
     height: 100%;
-    padding: 4em 0 4em 0;
+    padding: 3em 0 4em 0;
     position: fixed;
     width: 80%;
     z-index: 5;
     hr {
+        background-color: lightgrey !important;
+        color: lightgrey !important;
+        border: solid 1px lightgrey !important;
         width: 50%;
         margin-left: 2em;
     }
@@ -42,11 +48,10 @@
         margin-left: 2em;
     }
     div {
-        padding: 1em 0 2em 2em;
-        // text-align: center;
+        padding: 1em 0 1em 2em;
+        // font-size: .6em;
         span {
             display: block;
-            // margin-top: 2em;
         }
     }
 }

@@ -2,19 +2,21 @@
     background: #f7f7f7;
 }
 .services {
-    padding-top: 4em;
-    h1 {
-        padding-bottom: 2em;
-        font-weight: 400;
-        font-size: 2em;
-    }
+    // padding-top: 4em;
+}
+
+.services__header {
+    padding: 4em;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;    
 }
 
 .panel {
     height:100%;
     margin-bottom: 1em;
     padding: 1em 2em 1em 2em;
-    width: 85%;
+    width: 65%;
     h2 {
         color: #212121;
         font-weight: 400;
