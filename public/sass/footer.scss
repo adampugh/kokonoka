@@ -33,7 +33,12 @@ footer {
         }
     }
 
+    .footer__left {
+        align-self: center;
+    }
+
     .footer__right {
+        align-self: center;
         justify-self: end;
         text-align: right;
     }
