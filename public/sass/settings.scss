@@ -2,6 +2,8 @@
 $purple: #947cb0;
 $blue: #c6e7e5;
 $red: #ee5a56;
+$orange: rgb(253, 183, 62);
+$pink: rgb(255, 152, 171);
 $grey: #f7f7f7;
 $desktop-breakpoint: 62rem;
 
@@ -26,6 +28,37 @@ h1, h2, h3, h4, h5 {
     font-weight: 400;
 }
 
+
+// hover mixins
+.hover--blue {
+    &:hover {
+        color: lightskyblue;
+    }
+}
+
+.hover--purple {
+    &:hover {
+        color: $purple;
+    }
+}
+
+.hover--red {
+    &:hover {
+        color: $red;
+    }
+}
+
+.hover--orange {
+    &:hover {
+        color: $orange;
+    }
+}
+
+.hover--pink {
+    &:hover {
+        color: $pink;
+    }
+}
 
 // common classes
 .container {

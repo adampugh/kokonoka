@@ -1,6 +1,7 @@
 footer {
-    padding: 4em 0;
+    padding: 2em 0;
     background: lightskyblue;
+    text-align: center;
     h1, p {
         color: white;
     }
@@ -9,20 +10,34 @@ footer {
 .footer__grid {
     display: grid;
     grid-template-columns: 1fr;
+    i {
+        font-size: 2em;
+        margin-top: 1em;
+        padding: 0 .2em;
+    }
 }
 
 
 
-
-
 @media (min-width: $desktop-breakpoint) {
+    footer {
+        text-align: left;
+    }
+
+
     .footer__grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-
-        .footer__right {
-            justify-self: end;
-            background: green;
+        i {
+            margin-top: 0;
         }
     }
+
+    .footer__right {
+        justify-self: end;
+        text-align: right;
+    }
+    
+    
+
 }
