@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kokonoka | Digital Agency</title>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/animations.css">
     <link rel="stylesheet" href="./public/css/styles.css">
 </head>
 <body>
@@ -26,17 +27,16 @@
             <a href="#" class="hover--pink">Contact</a>
             <hr>
             <div>
-                <span>21 Lord Street</span>
-                <span>Liverpool, Merseyside</span>
-                <span>L1 7WX</span>
-            </div>
-            <hr>
-            <div>
                 <i class="fa fa-twitter" aria-hidden="true"></i>
                 <i class="fa fa-vimeo" aria-hidden="true"></i>
                 <i class="fa fa-facebook" aria-hidden="true"></i>
             </div>
-                
+            <hr>
+            <div>
+                <span>21 Lord Street</span>
+                <span>Liverpool, Merseyside</span>
+                <span>L1 7WX</span>
+            </div>
         </div>
     </nav>
     <!-- end of navbar -->
@@ -44,23 +44,23 @@
 
     <!-- about -->
     <header>
-        <div class="header__title container">
-            <h1>Digital Agency</h1>
-            <h2>Building beautiful digital products, brands and experiences.</h2>
+        <div class="animatedParent header__title container">
+            <h1 class="animated fadeInLeftShort">Digital Agency</h1>
+            <h2 class="animated fadeInLeft">Building beautiful digital products, brands and experiences.</h2>
         </div>
 
-        <div class="header__circle">
-            <div class="circle"></div>
+        <div class="animatedParent header__circle">
+            <div class="animated bounceInUp circle"></div>
 
-            <div class="header__image">
-                <img src="./public/images/desktop.jpg" alt="Photo by Damian Zaleski">
+            <div class="animatedParent header__image">
+                <img class="animated growIn" src="./public/images/desktop.jpg" alt="Photo by Damian Zaleski">
             </div>
         </div>
     </header>
 
     <div class="about">
-        <div class="container">
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae tempore omnis quam nihil eos animi incidunt maxime minus neque!</h2>
+        <div class="container animatedParent">
+            <h2 class="animated fadeInUp animateOnce">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae tempore omnis quam nihil eos animi incidunt maxime minus neque!</h2>
         </div>
     </div>
     
@@ -71,20 +71,20 @@
     <!-- case studies -->
     <div class="container case-studies__wrapper">
         <h1>Case Studies</h1>
-        <div class="case-studies">    
-            <div class="case-studies__project project--1">
+        <div class="case-studies animatedParent">    
+            <div class="case-studies__project project--1 animated fadeInUp">
                 <img src="./public/images/project2.jpg" alt="">
                 <h2>Parker Belgravia</h2>
             </div>
-            <div class="case-studies__project project--2">
+            <div class="case-studies__project project--2 animated fadeInUp">
                 <img src="./public/images/project4.jpg" alt="">
                 <h2>Kuroinu</h2>
             </div>
-            <div class="case-studies__project project--3">
+            <div class="case-studies__project project--3 animated fadeInUp">
                 <img src="./public/images/project1.jpg" alt="">
                 <h2>Kuroinu</h2>
             </div>
-            <div class="case-studies__project project--2">
+            <div class="case-studies__project project--2 animated fadeInUp">
                 <img src="./public/images/project7.jpg" alt="">
                 <h2>VidNotes</h2>
             </div>
@@ -97,17 +97,17 @@
     <!-- services -->
     <div class="grey-wrapper">
         <h1 class="services__header container">Our Services</h1>
-        <div class="services services--container">
+        <div class="services services--container animatedParent">
             
-            <div class="panel panel--design">
+            <div class="panel panel--design animated fadeInUp">
                 <h2>Design & user experience</h2>
                 <p>Research-based and magic inspired user journeys created through digital artistry and strategic content architecture.</p>
             </div>
-            <div class="panel panel--development">
+            <div class="panel panel--development animated fadeInUp">
                 <h2>Technology development</h2>
                 <p>Rich, immersive and responsive development solutions rooted in communication and conversion.</p>
             </div>
-            <div class="panel panel--marketing">
+            <div class="panel panel--marketing animated fadeInUp">
                 <h2>Social content & engagement</h2>
                 <p>The combined efforts of creative and strategy teams to design an aesthetic, a voice, and a roadmap for communicating across the most direct-to-consumer platforms on the planet.</p>
             </div>
@@ -122,15 +122,15 @@
         <div class="blog__posts">
             <div class="blog__posts__post">
                 <h2>Tips & tricks for engaging animations</h2>
-                <p>Dec 24th</p>
+                <p class="purple">Dec 24th</p>
             </div>
             <div class="blog__posts__post">
                 <h2>How to start writing good copy</h2>
-                <p>Jan 24th</p>
+                <p class="blue">Jan 24th</p>
             </div>
             <div class="blog__posts__post">
                 <h2>What tools to use when managing schedules</h2>
-                <p>Feb 24th</p>
+                <p class="red">Feb 24th</p>
             </div>
         </div>
         <p class="blog__all-posts">All posts</p>
@@ -183,6 +183,7 @@
     <!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/2398d4121c.js"></script>
+    <script src="./public/js/css3-animate-it.js"></script>
     <script src="./public/js/index.js"></script>
 </body>
 </html>

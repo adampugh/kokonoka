@@ -1,4 +1,5 @@
 $(document).ready(function(){ 
+    // navbar
     let menu = $(".menu");
     let hamburger = $(".hamburger-icon");
     let menuOpen;
@@ -25,5 +26,12 @@ $(document).ready(function(){
         toggleMenu();
     });
 
+
+
+    //auto expand textarea
+    function adjust_textarea(h) {
+        h.style.height = "20px";
+        h.style.height = (h.scrollHeight)+"px";
+    }
 
 });

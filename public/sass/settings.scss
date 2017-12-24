@@ -30,33 +30,31 @@ h1, h2, h3, h4, h5 {
 
 
 // hover mixins
-.hover--blue {
-    &:hover {
-        color: lightskyblue;
+@media (min-width: $desktop-breakpoint) {
+    .hover--blue {
+        &:hover {
+            color: lightskyblue;
+        }
     }
-}
-
-.hover--purple {
-    &:hover {
-        color: $purple;
+    .hover--purple {
+        &:hover {
+            color: $purple;
+        }
     }
-}
-
-.hover--red {
-    &:hover {
-        color: $red;
+    .hover--red {
+        &:hover {
+            color: $red;
+        }
     }
-}
-
-.hover--orange {
-    &:hover {
-        color: $orange;
+    .hover--orange {
+        &:hover {
+            color: $orange;
+        }
     }
-}
-
-.hover--pink {
-    &:hover {
-        color: $pink;
+    .hover--pink {
+        &:hover {
+            color: $pink;
+        }
     }
 }
 
@@ -70,4 +68,16 @@ h1, h2, h3, h4, h5 {
     .container {
         width: 80%;
     }
+}
+
+.red {
+    color: $red;
+}
+
+.purple {
+    color: $purple;
+}
+
+.blue {
+    color: lightskyblue;
 }
