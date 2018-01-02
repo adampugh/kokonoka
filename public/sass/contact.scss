@@ -20,6 +20,7 @@
         margin-bottom: 2em;
         height: 45px;
     }
+    
     textarea {
         resize:none;
         overflow: hidden;
@@ -46,7 +47,6 @@
 @media (min-width: $desktop-breakpoint) {
     .contact__grid {
         grid-template-columns: 1fr 1fr;
-        
         input, textarea {
             width: 90%;
         }

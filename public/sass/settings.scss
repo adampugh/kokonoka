@@ -7,8 +7,6 @@ $pink: rgb(255, 152, 171);
 $grey: #f7f7f7;
 $desktop-breakpoint: 62rem;
 
-
-
 // general styles
 html, body {
     margin: 0;
@@ -26,7 +24,6 @@ a {
 h1, h2, h3, h4, h5 {
     font-weight: 400;
 }
-
 
 // hover mixins
 @media (min-width: $desktop-breakpoint) {
@@ -77,7 +74,6 @@ h1, h2, h3, h4, h5 {
           background-size: 100% 88%;
         }
     }
-
 }
 
 // common classes
@@ -85,13 +81,10 @@ h1, h2, h3, h4, h5 {
     font-family: 'Paytone One', sans-serif;
 }
 
-
-
 .btn-wrapper {
     text-align: right;
     margin: 2em 0;
 }
-
 
 .container {
     width: 90%;
